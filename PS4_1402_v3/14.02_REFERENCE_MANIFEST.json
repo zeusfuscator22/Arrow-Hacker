@@ -1,0 +1,137 @@
+{
+  "name": "Akatsuki 14.02 clean-kernel static port v3; PS4 hardware-unverified",
+  "reference_archive": "14.02 Webkit Code Execution.zip",
+  "reference_files": {
+    "1402k.elf": {
+      "sha256": "4598beca4050821fbad09e446a6c0dd40510430cde4483ba566daee28836f9ea",
+      "bytes": 20080272
+    },
+    "libSceNKWebKit.sprx": {
+      "sha256": "48fa2ace61dfb4598f171fe9420a0b0f5ad965e124921819929838fc84ea16bb",
+      "bytes": 70255992
+    },
+    "libSceLibcInternal.sprx": {
+      "sha256": "aec2aef2dedd0175db4dfddd499d1fbc221aabf6b82b5dc50643e91c6c5f9d2a",
+      "bytes": 1543640
+    },
+    "libkernel_web.sprx": {
+      "sha256": "b7fd654a2c17d5b7ddbe897d2213d5cbf04d66eb22c52d51df4270f28c28f35e",
+      "bytes": 448824
+    }
+  },
+  "patched_reference_sha256": "a1522676dabb9cb51a1f94ebced0e725b1d605202a87f6c07aad2625c169a704",
+  "kernel_text_length": 13625760,
+  "kernel_text_changed_bytes": 242,
+  "gadget_count": 14,
+  "sites": [
+    {
+      "name": "bcopy",
+      "rva": "0xacd",
+      "previous_rva": "0xacd",
+      "expected_unmodified": "76",
+      "replacement": "eb"
+    },
+    {
+      "name": "bzero",
+      "rva": "0x2bda9d",
+      "previous_rva": "0x2bd79d",
+      "expected_unmodified": "76",
+      "replacement": "eb"
+    },
+    {
+      "name": "pagezero",
+      "rva": "0x2bdae1",
+      "previous_rva": "0x2bd7e1",
+      "expected_unmodified": "76",
+      "replacement": "eb"
+    },
+    {
+      "name": "memcpy",
+      "rva": "0x2bdb5d",
+      "previous_rva": "0x2bd85d",
+      "expected_unmodified": "76",
+      "replacement": "eb"
+    },
+    {
+      "name": "pagecopy",
+      "rva": "0x2bdba1",
+      "previous_rva": "0x2bd8a1",
+      "expected_unmodified": "76",
+      "replacement": "eb"
+    },
+    {
+      "name": "copyin",
+      "rva": "0x2bdd4d",
+      "previous_rva": "0x2bda4d",
+      "expected_unmodified": "76",
+      "replacement": "eb"
+    },
+    {
+      "name": "copyinstr",
+      "rva": "0x2be1fd",
+      "previous_rva": "0x2bdefd",
+      "expected_unmodified": "76",
+      "replacement": "eb"
+    },
+    {
+      "name": "copystr",
+      "rva": "0x2be2cd",
+      "previous_rva": "0x2bdfcd",
+      "expected_unmodified": "76",
+      "replacement": "eb"
+    },
+    {
+      "name": "dlsym, first check",
+      "rva": "0x1b7c63",
+      "previous_rva": "0x1b7a43",
+      "expected_unmodified": "0f85",
+      "replacement": "eb04"
+    },
+    {
+      "name": "dlsym, second check",
+      "rva": "0x1b7c73",
+      "previous_rva": "0x1b7a53",
+      "expected_unmodified": "0f84",
+      "replacement": "eb04"
+    },
+    {
+      "name": "dlsym, nop and jump",
+      "rva": "0x1b7c93",
+      "previous_rva": "0x1b7a73",
+      "expected_unmodified": "0f84",
+      "replacement": "90e9"
+    },
+    {
+      "name": "load_prx",
+      "rva": "0x1b7724",
+      "previous_rva": "0x1b7504",
+      "expected_unmodified": "0f84",
+      "replacement": "90e9"
+    },
+    {
+      "name": "dlsym, open it to every caller",
+      "rva": "0x1b7cd8",
+      "previous_rva": "0x1b7ab8",
+      "expected_unmodified": "0f823901",
+      "replacement": "90e93c01"
+    },
+    {
+      "name": "self verification",
+      "rva": "0x628b04",
+      "previous_rva": "0x628684",
+      "expected_unmodified": "7407",
+      "replacement": "eb00"
+    },
+    {
+      "name": "delayed panic on suspend",
+      "rva": "0x6293ef",
+      "previous_rva": "0x628f6f",
+      "expected_unmodified": "7541",
+      "replacement": "eb00"
+    }
+  ],
+  "payload_included": false,
+  "hardware_tested": false,
+  "preflight": "expect pristine 14.02 bytes OR already matching patched bytes; fail-closed",
+  "limitations": "Does not validate bootstrap, native PS4HEN initialization or overall stability."
+}

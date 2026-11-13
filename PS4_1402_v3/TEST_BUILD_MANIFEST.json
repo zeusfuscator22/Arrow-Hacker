@@ -1,0 +1,12 @@
+{
+  "name": "Akatsuki 14.02 HEN184 kernel-port v3",
+  "release": "experimental; not hardware tested",
+  "kernel_reference_sha256": "4598beca4050821fbad09e446a6c0dd40510430cde4483ba566daee28836f9ea",
+  "patch_sites_mapped": 15,
+  "gadget_signatures_matched": 14,
+  "runtime_patch_guard": true,
+  "unsafe_debug_menu_kernel_writes_removed": true,
+  "unverified_bootstrap": true,
+  "hen184_download_sha256": "44af7f94709355bc5c7b9cef78e83d83583d04be6b151d5f4eec683d4163fffb",
+  "hardware_tested": false
+}

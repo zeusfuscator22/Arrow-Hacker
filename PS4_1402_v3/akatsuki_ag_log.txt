@@ -1,0 +1,114 @@
+2026-11-12T15:15:24+00:00 [AG] [7] gate is live, thread 0xffff9eb907fe4590
+2026-11-12T15:15:25+00:00 [AG] [7b] 14.02 kernel patch preflight PASS: 15 original, 0 already matching; no heuristic offsets used
+2026-11-12T15:15:25+00:00 [AG] [8] 15 of 15 kernel patches in place
+2026-11-12T15:15:25+00:00 [AG] [9] jailbroken, uid 0
+2026-11-12T15:15:25+00:00 [AG] [10] kernel interface is live -- 220 handles held open
+2026-11-12T15:15:25+00:00 [AG] [t] reading the padding at 0xffffffffd2d9a400
+2026-11-12T15:15:25+00:00 [AG] [t] it holds 0x0000000000000000
+2026-11-12T15:15:25+00:00 [AG] [t] looking for the device table across 220 handles
+2026-11-12T15:15:25+00:00 [AG] [t] 220 of 220 handles on the copy
+2026-11-12T15:15:25+00:00 [AG] [t] 4 of 4 queues on the copy
+2026-11-12T15:15:25+00:00 [AG] [t] note lists emptied on 4 of 4 queues
+2026-11-12T15:15:25+00:00 [AG] [t] all 220 handles are on the copy
+2026-11-12T15:15:25+00:00 [AG] handles defused -- this page may close
+2026-11-12T15:15:25+00:00 [AG] [p] Attempting Scene-Collective ps4-hen pre-release-main-184 for 14.02
+2026-11-12T15:15:25+00:00 [AG] [p] entry page executes in ring 3, loading payload
+2026-11-12T15:15:29+00:00 [AG] [p] Official HEN184 copied byte-for-byte; starting raw-payload thread
+2026-11-12T15:15:29+00:00 [AG] [p] pthread_create at 0x000000083a6e94d0 = libkernel +0x194d0
+2026-11-12T15:15:29+00:00 [AG] [p] 501152 bytes at 0x0000000202870000, thread rc=0 -- running
+2026-11-12T15:15:29+00:00 [AG] [p] HEN-184 thread created; HEN initialization NOT verified
+2026-11-12T15:24:52+00:00 [AG] [7] gate is live, thread 0xffff840407c25bd0
+2026-11-12T15:24:52+00:00 [AG] [7b] 14.02 kernel patch preflight PASS: 15 original, 0 already matching; no heuristic offsets used
+2026-11-12T15:24:52+00:00 [AG] [8] 15 of 15 kernel patches in place
+2026-11-12T15:24:52+00:00 [AG] [9] jailbroken, uid 0
+2026-11-12T15:24:52+00:00 [AG] [10] kernel interface is live -- 220 handles held open
+2026-11-12T15:24:52+00:00 [AG] [t] reading the padding at 0xffffffffd3ea2400
+2026-11-12T15:24:52+00:00 [AG] [t] it holds 0x0000000000000000
+2026-11-12T15:24:52+00:00 [AG] [t] looking for the device table across 220 handles
+2026-11-12T15:24:52+00:00 [AG] [t] 220 of 220 handles on the copy
+2026-11-12T15:24:52+00:00 [AG] [t] 4 of 4 queues on the copy
+2026-11-12T15:24:52+00:00 [AG] [t] note lists emptied on 4 of 4 queues
+2026-11-12T15:24:52+00:00 [AG] [t] all 220 handles are on the copy
+2026-11-12T15:24:52+00:00 [AG] handles defused -- this page may close
+2026-11-12T15:24:52+00:00 [AG] [p] Attempting Scene-Collective ps4-hen pre-release-main-184 for 14.02
+2026-11-12T15:24:52+00:00 [AG] [p] entry page executes in ring 3, loading payload
+2026-11-12T15:24:56+00:00 [AG] [p] Official HEN184 copied byte-for-byte; starting raw-payload thread
+2026-11-12T15:24:56+00:00 [AG] [p] pthread_create at 0x000000080ff1d4d0 = libkernel +0x194d0
+2026-11-12T15:24:56+00:00 [AG] [p] 501152 bytes at 0x0000000201734000, thread rc=0 -- running
+2026-11-12T15:24:56+00:00 [AG] [p] HEN-184 thread created; HEN initialization NOT verified
+2026-11-12T16:13:06+00:00 [AG] [7] gate is live, thread 0xffffc91506ede6f0
+2026-11-12T16:13:06+00:00 [AG] [7b] 14.02 kernel patch preflight PASS: 15 original, 0 already matching; no heuristic offsets used
+2026-11-12T16:13:06+00:00 [AG] [8] 15 of 15 kernel patches in place
+2026-11-12T16:13:07+00:00 [AG] [9] jailbroken, uid 0
+2026-11-12T16:13:07+00:00 [AG] [10] kernel interface is live -- 220 handles held open
+2026-11-12T16:13:07+00:00 [AG] [t] reading the padding at 0xffffffff9567e400
+2026-11-12T16:13:07+00:00 [AG] [t] it holds 0x0000000000000000
+2026-11-12T16:13:07+00:00 [AG] [t] looking for the device table across 220 handles
+2026-11-12T16:13:07+00:00 [AG] [t] 220 of 220 handles on the copy
+2026-11-12T16:13:07+00:00 [AG] [t] 4 of 4 queues on the copy
+2026-11-12T16:13:07+00:00 [AG] [t] note lists emptied on 4 of 4 queues
+2026-11-12T16:13:07+00:00 [AG] [t] all 220 handles are on the copy
+2026-11-12T16:13:07+00:00 [AG] handles defused -- this page may close
+2026-11-12T16:13:07+00:00 [AG] [p] Attempting Scene-Collective ps4-hen pre-release-main-184 for 14.02
+2026-11-12T16:13:07+00:00 [AG] [p] entry page executes in ring 3, loading payload
+2026-11-12T16:13:11+00:00 [AG] [p] Official HEN184 copied byte-for-byte; starting raw-payload thread
+2026-11-12T16:13:11+00:00 [AG] [p] pthread_create at 0x00000008139914d0 = libkernel +0x194d0
+2026-11-12T16:13:11+00:00 [AG] [p] 501152 bytes at 0x0000000202100000, thread rc=0 -- running
+2026-11-12T16:13:11+00:00 [AG] [p] HEN-184 thread created; HEN initialization NOT verified
+2026-11-12T16:42:47+00:00 [AG] [7] gate is live, thread 0xffff957534dd6160
+2026-11-12T16:42:47+00:00 [AG] [7b] 14.02 kernel patch preflight PASS: 15 original, 0 already matching; no heuristic offsets used
+2026-11-12T16:42:47+00:00 [AG] [8] 15 of 15 kernel patches in place
+2026-11-12T16:42:47+00:00 [AG] [9] jailbroken, uid 0
+2026-11-12T16:42:47+00:00 [AG] [10] kernel interface is live -- 165 handles held open
+2026-11-12T16:42:47+00:00 [AG] [t] reading the padding at 0xffffffffddf0a400
+2026-11-12T16:42:47+00:00 [AG] [t] it holds 0x0000000000000000
+2026-11-12T16:42:47+00:00 [AG] [t] looking for the device table across 165 handles
+2026-11-12T16:42:47+00:00 [AG] [t] 165 of 165 handles on the copy
+2026-11-12T16:42:47+00:00 [AG] [t] 3 of 3 queues on the copy
+2026-11-12T16:42:48+00:00 [AG] [t] note lists emptied on 3 of 3 queues
+2026-11-12T16:42:48+00:00 [AG] [t] all 165 handles are on the copy
+2026-11-12T16:42:48+00:00 [AG] handles defused -- this page may close
+2026-11-12T16:42:48+00:00 [AG] [p] Attempting Scene-Collective ps4-hen pre-release-main-184 for 14.02
+2026-11-12T16:42:48+00:00 [AG] [p] entry page executes in ring 3, loading payload
+2026-11-12T16:42:52+00:00 [AG] [p] Official HEN184 copied byte-for-byte; starting raw-payload thread
+2026-11-12T16:42:52+00:00 [AG] [p] pthread_create at 0x000000083d03d4d0 = libkernel +0x194d0
+2026-11-12T16:42:52+00:00 [AG] [p] 501152 bytes at 0x0000000200f80000, thread rc=0 -- running
+2026-11-12T16:42:52+00:00 [AG] [p] HEN-184 thread created; HEN initialization NOT verified
+2026-11-12T16:50:16+00:00 [AG] [7] gate is live, thread 0xffffbe07063c5bd0
+2026-11-12T16:50:16+00:00 [AG] [7b] 14.02 kernel patch preflight PASS: 15 original, 0 already matching; no heuristic offsets used
+2026-11-12T16:50:16+00:00 [AG] [8] 15 of 15 kernel patches in place
+2026-11-12T16:50:16+00:00 [AG] [9] jailbroken, uid 0
+2026-11-12T16:50:16+00:00 [AG] [10] kernel interface is live -- 220 handles held open
+2026-11-12T16:50:16+00:00 [AG] [t] reading the padding at 0xffffffff8e1ca400
+2026-11-12T16:50:16+00:00 [AG] [t] it holds 0x0000000000000000
+2026-11-12T16:50:16+00:00 [AG] [t] looking for the device table across 220 handles
+2026-11-12T16:50:16+00:00 [AG] [t] 220 of 220 handles on the copy
+2026-11-12T16:50:16+00:00 [AG] [t] 4 of 4 queues on the copy
+2026-11-12T16:50:16+00:00 [AG] [t] note lists emptied on 4 of 4 queues
+2026-11-12T16:50:16+00:00 [AG] [t] all 220 handles are on the copy
+2026-11-12T16:50:16+00:00 [AG] handles defused -- this page may close
+2026-11-12T16:50:16+00:00 [AG] [p] Attempting Scene-Collective ps4-hen pre-release-main-184 for 14.02
+2026-11-12T16:50:16+00:00 [AG] [p] entry page executes in ring 3, loading payload
+2026-11-12T16:50:21+00:00 [AG] [p] Official HEN184 copied byte-for-byte; starting raw-payload thread
+2026-11-12T16:50:21+00:00 [AG] [p] pthread_create at 0x0000000827a514d0 = libkernel +0x194d0
+2026-11-12T16:50:21+00:00 [AG] [p] 501152 bytes at 0x0000000201b1c000, thread rc=0 -- running
+2026-11-12T16:50:21+00:00 [AG] [p] HEN-184 thread created; HEN initialization NOT verified
+2026-11-13T16:21:56+00:00 [AG] [7] gate is live, thread 0xfffff88b07756c80
+2026-11-13T16:21:56+00:00 [AG] [7b] 14.02 kernel patch preflight PASS: 15 original, 0 already matching; no heuristic offsets used
+2026-11-13T16:21:56+00:00 [AG] [8] 15 of 15 kernel patches in place
+2026-11-13T16:21:56+00:00 [AG] [9] jailbroken, uid 0
+2026-11-13T16:21:56+00:00 [AG] [10] kernel interface is live -- 220 handles held open
+2026-11-13T16:21:56+00:00 [AG] [t] reading the padding at 0xffffffffd70fe400
+2026-11-13T16:21:56+00:00 [AG] [t] it holds 0x0000000000000000
+2026-11-13T16:21:56+00:00 [AG] [t] looking for the device table across 220 handles
+2026-11-13T16:21:56+00:00 [AG] [t] 220 of 220 handles on the copy
+2026-11-13T16:21:56+00:00 [AG] [t] 4 of 4 queues on the copy
+2026-11-13T16:21:56+00:00 [AG] [t] note lists emptied on 4 of 4 queues
+2026-11-13T16:21:56+00:00 [AG] [t] all 220 handles are on the copy
+2026-11-13T16:21:56+00:00 [AG] handles defused -- this page may close
+2026-11-13T16:21:56+00:00 [AG] [p] Attempting Scene-Collective ps4-hen pre-release-main-184 for 14.02
+2026-11-13T16:21:56+00:00 [AG] [p] entry page executes in ring 3, loading payload
+2026-11-13T16:22:01+00:00 [AG] [p] Official HEN184 copied byte-for-byte; starting raw-payload thread
+2026-11-13T16:22:01+00:00 [AG] [p] pthread_create at 0x000000081a4714d0 = libkernel +0x194d0
+2026-11-13T16:22:01+00:00 [AG] [p] 501152 bytes at 0x0000000200e00000, thread rc=0 -- running
+2026-11-13T16:22:01+00:00 [AG] [p] HEN-184 thread created; HEN initialization NOT verified
