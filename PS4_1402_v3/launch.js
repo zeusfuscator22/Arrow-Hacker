@@ -45,5 +45,5 @@
 
   /* NO AUTO-START. The user must click to begin. */
   if (countEl) countEl.textContent =
-    "Experimental build. 14.02 HEN support is new; remaining Akatsuki kernel patches are not validated. A full console freeze is possible.";
+    "Experimental build. 14.02 HEN support is new; remaining Nicu Exploit kernel patches are not validated. A full console freeze is possible.";
 })();
